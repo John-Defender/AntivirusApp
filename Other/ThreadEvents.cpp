@@ -1,7 +1,6 @@
 #include <wx\wxprec.h>
 #include "ThreadEvents.h"
 
-// this must be in a .CPP file so that it only exists once in the project
 wxDEFINE_EVENT(EVT_MALWARE_SCAN_STATUS, wxThreadEvent);
 wxDEFINE_EVENT(EVT_MALWARE_SCAN_ERROR, wxThreadEvent);
 wxDEFINE_EVENT(EVT_MALWARE_SCAN_FINISH, wxThreadEvent);
